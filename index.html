@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans">
+  <link rel="stylesheet" href="/CSS/style.css">
+  <title>Contact Form</title>
+</head>
+<body>
+<div class="container">
+  <h1 class="header">CONTACT US</h1>
+            <div class="main-row">
+                <div class="leftcol">
+                    <div class="col-1">
+                        <form action="/action_page.php" target="_blank" method="POST">
+                        <label for="yname">Your Name</label><br />
+                        <input type="text" id="yname" name="yname" placeholder="Your full name..."><br />
+    
+                          <div class="row">
+                            <div class="email">
+                              <label for="email">Email Address</label><br />
+                              <input type="email" id="email" name="email" placeholder="Email Address...">
+                            </div>
+    
+                            <div class="country">
+                              <label for="country">Country</label><br />
+                              <select id="country" name="country">
+                              <option value="australia">Australia</option>
+                              <option value="canada">Canada</option>
+                              <option value="usa">USA</option>
+                              </select>
+                            </div>
+                          </div>
+
+                              <label for="subject">Subject</label><br />
+                              <textarea name="subject" id="subject" cols="30" rows="20" placeholder="Write your message..."></textarea><br />
+                              <input type="submit" value="Submit">    
+                              </form>
+                      </div>
+                </div>  
+                          <div class="rightcol">
+                              <div class="col-2">
+                                <img src="/image/img1.png" alt="map location" width="460" height="345">
+                                <p>This would be a real map but I don't know how to add it yet</p>
+          </div>
+</div>
+</div>
+</div>
+</body>
+</html>
